@@ -8,5 +8,10 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "nodemon": "^3.0.2",
+    "typescript": "^5.3.3"
+  }
 }
