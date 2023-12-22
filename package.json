@@ -1,10 +1,10 @@
 {
-  "name": "node.js-cli",
+  "name": "deploy-gh-pages",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"no test specified\"",
     "lint": "prettier --check . && eslint . && npx tsc --noEmit",
     "lint:fix": "prettier --write . && eslint . --fix && npx tsc --noEmit",
     "prepare": "husky install",
