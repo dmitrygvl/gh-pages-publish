@@ -28,7 +28,7 @@ export const deployAction = (args: OptionValues) => {
     }
 
     publish(options);
-  } catch (e: unknown) {
-    console.log((e as unknown as Error).message);
+  } catch (err: unknown) {
+    console.log((err as Error).message);
   }
 };

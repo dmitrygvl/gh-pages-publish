@@ -7,7 +7,7 @@ import {
   displayWarningMessage,
 } from './displayMessages';
 
-const publish = (options: OptionValues) => {
+export const publish = (options: OptionValues) => {
   ghpages.publish(options.dir, options, (err) => {
     if (err) {
       displayWarningMessage('Something has gone wrong!');
@@ -17,5 +17,3 @@ const publish = (options: OptionValues) => {
     displaySuccessMessage('Deployment successfully completed!');
   });
 };
-
-export { publish };

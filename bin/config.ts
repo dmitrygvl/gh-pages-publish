@@ -16,7 +16,7 @@ import {
 } from './displayMessages';
 import { publish } from './publish';
 
-export const configAction = async () => {
+export const config = async () => {
   try {
     let options: OptionValues = { ...defaults };
 
