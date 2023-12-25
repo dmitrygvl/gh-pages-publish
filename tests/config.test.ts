@@ -81,7 +81,7 @@ describe('config', () => {
 
   it('handles user refusal to configure parameters', async () => {
     (readline.createInterface as jest.Mock).mockReturnValueOnce({
-      question: jest.fn().mockResolvedValueOnce('n'), // Пользователь решает не настраивать параметры
+      question: jest.fn().mockResolvedValueOnce('n'),
       close: jest.fn(),
     });
 
