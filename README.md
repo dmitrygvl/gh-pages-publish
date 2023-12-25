@@ -1,4 +1,4 @@
-# gh-pages-deploy-app
+# gh-pages-publish
 
 <p>
 <img alt="Badge" src="https://github.com/dmitrygvl/gh-pages-publish/actions/workflows/sanity-check.yml/badge.svg" />
