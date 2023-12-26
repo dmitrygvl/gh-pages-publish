@@ -8,13 +8,13 @@ import {
   inputValidation,
   transformInputValue,
   updateConfig,
-} from './bin/dataProcessing';
-import { defaults, queries } from './bin/constants';
+} from './dataProcessing';
+import { defaults, queries } from './constants';
 import {
   displaySuccessMessage,
   displayWarningMessage,
-} from './bin/displayMessages';
-import { publish } from './bin/publish';
+} from './displayMessages';
+import { publish } from './publish';
 
 export const configAction = async () => {
   try {
